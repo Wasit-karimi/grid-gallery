@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:HeptaSlad;
+}
+
+/* html{
+    scroll-behavior: smooth;
+} */
+
+@font-face {
+    font-family: HeptaSlad;
+    src: url(../fonts/HeptaSlab-VariableFont_wght.ttf);
+}
+
+
+header, nav, section, div, span, footer, ul{
+    display: flex;
+    flex-wrap: wrap;
+}
